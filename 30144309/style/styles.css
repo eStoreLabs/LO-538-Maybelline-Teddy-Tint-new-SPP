@@ -116,6 +116,9 @@
 #es-rc #es-rc-content .es-kv__right img:hover {
   transform: scale(1.05);
 }
+#es-rc #es-rc-content .es-kv__img--desktop {
+  display: none;
+}
 
 #es-rc #es-rc-content .es-kv__logo {
   display: none;
@@ -172,6 +175,13 @@
     transform: translateY(-50%);
     right: 20px;
     max-width: 185px;
+  }
+
+  #es-rc #es-rc-content .es-kv__img--desktop {
+    display: block;
+  }
+  #es-rc #es-rc-content .es-kv__img--mobile {
+    display: none;
   }
 
   #es-rc #es-rc-content .es-kv__logo {
